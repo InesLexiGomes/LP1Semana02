@@ -13,6 +13,11 @@ namespace SmoothOperator
             Console.WriteLine(n);
             n++;
             Console.WriteLine(n);
+            Console.WriteLine($"{n/2}");
+            Console.WriteLine($"{n<<2}");
+            Console.WriteLine($"{n^5}");
+            bool con = n > 10;
+            Console.WriteLine(con);
 
         }
     }
