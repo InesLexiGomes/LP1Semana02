@@ -17,6 +17,9 @@ namespace ValoresEspeciais
             Console.WriteLine($"Float:{float.MaxValue};{float.MinValue}");
             Console.WriteLine($"Double:{double.MaxValue};{double.MinValue}");
             Console.WriteLine($"Decimal:{decimal.MaxValue};{decimal.MinValue}");
+            Console.WriteLine($"Menos Infinito: {double.NegativeInfinity}");
+            Console.WriteLine($"Mais Infinito: {double.PositiveInfinity}");
+            Console.WriteLine($"NaN: {float.NaN}");
         }
     }
 }
