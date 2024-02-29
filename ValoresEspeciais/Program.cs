@@ -20,6 +20,12 @@ namespace ValoresEspeciais
             Console.WriteLine($"Menos Infinito: {double.NegativeInfinity}");
             Console.WriteLine($"Mais Infinito: {double.PositiveInfinity}");
             Console.WriteLine($"NaN: {float.NaN}");
+
+            // Overflow em uInt
+
+            uint i = uint.MaxValue;
+            Console.WriteLine((uint)(i+1));
+            
         }
     }
 }
