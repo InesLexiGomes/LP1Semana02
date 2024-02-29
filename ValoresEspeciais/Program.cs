@@ -31,6 +31,11 @@ namespace ValoresEspeciais
             float f1 = float.MaxValue;
             Console.WriteLine((float)(f1+1));
             Console.WriteLine((float)(f1 * 2));
+
+            // Underflow de floats
+
+            float f2 = float.MinValue;
+            Console.WriteLine((float)(f2-1));
         }
     }
 }
