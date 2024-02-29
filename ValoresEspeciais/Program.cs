@@ -26,6 +26,11 @@ namespace ValoresEspeciais
             uint i = uint.MaxValue;
             Console.WriteLine((uint)(i+1));
             
+            // Overflow de floats
+
+            float f1 = float.MaxValue;
+            Console.WriteLine((float)(f1+1));
+            Console.WriteLine((float)(f1 * 2));
         }
     }
 }
